@@ -7,19 +7,6 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 from datetime import date
 
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.linear_model import LinearRegression
-import time
-from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor, as_completed
-from multiprocessing import Pool, cpu_count
-import requests
-import aiohttp
-import asyncio
-from datetime import date
-
 
 def get_current_temperature(city: str, api_key: str):
     """
